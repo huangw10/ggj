@@ -57,7 +57,12 @@ public class Plot : MonoBehaviour
     private string[] d2 = new string[] { "a", "b", "c" , "d", "e", "f", "g", "h" };
     private string[] d3 = new string[] { "a", "b", "c" , "d", "e", "f", "g", "h" };
     private string[] dialog = new string[] { "da", "db", "dc", "dd", "de", "df", "dg" };
-    private string[] news = new string[] { "na", "nb", "nc", "nd", "ne", "nf", "ng" };
+    private string[] news1yes = new string[] { "na", "nb", "nc", "nd", "ne", "nf", "ng" };
+    private string[] news1no = new string[] { "na", "nb", "nc", "nd", "ne", "nf", "ng" };
+    private string[] news2yes = new string[] { "na", "nb", "nc", "nd", "ne", "nf", "ng" };
+    private string[] news2no = new string[] { "na", "nb", "nc", "nd", "ne", "nf", "ng" };
+    private string[] news3yes = new string[] { "na", "nb", "nc", "nd", "ne", "nf", "ng" };
+    private string[] news3no = new string[] { "na", "nb", "nc", "nd", "ne", "nf", "ng" };
     private string[] begining = new string[] { "ba", "bb", "bc", "bd", "be", "bf", "bg" };
     private string[] q1yes = new string[] { "yes1", "yes2", "yes3", "yes4", "yes", "yes", "yes", "yes" };
     private string[] q2yes = new string[] { "yes1", "yes2", "yes3", "ye4s", "yes", "yes", "yes", "yes" };
@@ -209,7 +214,22 @@ public class Plot : MonoBehaviour
     }
 
     public void News() {
-        tmp1.SetText(news[turn - 1]);
+        string x = "";
+        if (oa1 == 1)
+        { x += news1yes[turn - 1]; }
+        else if (oa1 == 2)
+            x += news1no[turn - 1];
+        if (oa2 == 1)
+        { x += news2yes[turn - 1]; }
+        else if (oa2== 2)
+            x += news2no[turn - 1];
+        if (oa3 == 1)
+        { x += news3yes[turn - 1]; }
+        else if (oa3 == 2)
+            x += news3no[turn - 1];
+
+        tmp1.SetText(x);
+
     }
 
     public void back_to_choice()
