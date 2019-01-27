@@ -256,7 +256,7 @@ public class Plot : MonoBehaviour
             u.a3 = 0;
             check_earth();
 
-        cutscene_num = 0;
+        cutscene_num = 1;
     }
 
     void check_earth()
