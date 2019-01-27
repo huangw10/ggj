@@ -534,6 +534,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button31
       objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5531586612425733235, guid: 1fca5fb12521a7e4d8147ed80875edc9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -673,16 +683,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Colors.m_ColorMultiplier
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fca5fb12521a7e4d8147ed80875edc9, type: 3}
@@ -895,6 +895,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button12
       objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5531586612425733235, guid: 1fca5fb12521a7e4d8147ed80875edc9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1029,16 +1039,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fca5fb12521a7e4d8147ed80875edc9, type: 3}
@@ -1800,7 +1800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -173.5}
+  m_AnchoredPosition: {x: 0, y: -181}
   m_SizeDelta: {x: -37.3, y: -370.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &775972716
@@ -2200,6 +2200,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button32
       objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5531586612425733235, guid: 1fca5fb12521a7e4d8147ed80875edc9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2359,16 +2369,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Colors.m_PressedColor.b
       value: 0.083303675
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fca5fb12521a7e4d8147ed80875edc9, type: 3}
@@ -3565,6 +3565,7 @@ MonoBehaviour:
   earth1: {fileID: 1743352269}
   ice_earth: {fileID: 1939443351}
   newspenal: {fileID: 775972714}
+  board: {fileID: 1893056786}
   u: {fileID: 786908374}
   next_button: {fileID: 1216649864}
   option1: {fileID: 630909062}
@@ -3590,78 +3591,6 @@ MonoBehaviour:
   population: 0
   satisfaction: 0
   turn: 0
-  t1_q1_e: 0
-  t1_q1_p: 0
-  t1_q1_s: 0
-  t1_q2_e: 0
-  t1_q2_p: 0
-  t1_q2_s: 0
-  t1_q3_e: 0
-  t1_q3_p: 0
-  t1_q3_s: 0
-  t2_q1_e: 0
-  t2_q1_p: 0
-  t2_q1_s: 0
-  t2_q2_e: 0
-  t2_q2_p: 0
-  t2_q2_s: 0
-  t2_q3_e: 0
-  t2_q3_p: 0
-  t2_q3_s: 0
-  t3_q1_e: 0
-  t3_q1_p: 0
-  t3_q1_s: 0
-  t3_q2_e: 0
-  t3_q2_p: 0
-  t3_q2_s: 0
-  t3_q3_e: 0
-  t3_q3_p: 0
-  t3_q3_s: 0
-  t4_q1_e: 0
-  t4_q1_p: 0
-  t4_q1_s: 0
-  t4_q2_e: 0
-  t4_q2_p: 0
-  t4_q2_s: 0
-  t4_q3_e: 0
-  t4_q3_p: 0
-  t4_q3_s: 0
-  t5_q1_e: 0
-  t5_q1_p: 0
-  t5_q1_s: 0
-  t5_q2_e: 0
-  t5_q2_p: 0
-  t5_q2_s: 0
-  t5_q3_e: 0
-  t5_q3_p: 0
-  t5_q3_s: 0
-  t6_q1_e: 0
-  t6_q1_p: 0
-  t6_q1_s: 0
-  t6_q2_e: 0
-  t6_q2_p: 0
-  t6_q2_s: 0
-  t6_q3_e: 0
-  t6_q3_p: 0
-  t6_q3_s: 0
-  t7_q1_e: 0
-  t7_q1_p: 0
-  t7_q1_s: 0
-  t7_q2_e: 0
-  t7_q2_p: 0
-  t7_q2_s: 0
-  t7_q3_e: 0
-  t7_q3_p: 0
-  t7_q3_s: 0
-  t8_q1_e: 0
-  t8_q1_p: 0
-  t8_q1_s: 0
-  t8_q2_e: 0
-  t8_q2_p: 0
-  t8_q2_s: 0
-  t8_q3_e: 0
-  t8_q3_p: 0
-  t8_q3_s: 0
 --- !u!1 &1406877892
 GameObject:
   m_ObjectHideFlags: 0
@@ -4001,6 +3930,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button21
       objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5531586612425733235, guid: 1fca5fb12521a7e4d8147ed80875edc9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4136,16 +4075,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fca5fb12521a7e4d8147ed80875edc9, type: 3}
 --- !u!1 &1596659550
@@ -4253,6 +4182,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Button22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5531586612425733235, guid: 1fca5fb12521a7e4d8147ed80875edc9,
         type: 3}
@@ -4389,16 +4328,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fca5fb12521a7e4d8147ed80875edc9, type: 3}
 --- !u!1 &1743352269
@@ -4479,6 +4408,85 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1893056786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1893056788}
+  - component: {fileID: 1893056787}
+  m_Layer: 0
+  m_Name: board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1893056787
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893056786}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f8fecc9e116c9784badc56338d42088f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12.8, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1893056788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893056786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 482, y: 210, z: 0}
+  m_LocalScale: {x: 1.1695272, y: 1.5781329, z: 0.9869265}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1939443351
 GameObject:
@@ -4656,6 +4664,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button11
       objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_Text
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5531586612425733235, guid: 1fca5fb12521a7e4d8147ed80875edc9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4820,21 +4843,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Navigation.m_Mode
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_Text
-      value: Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4136782166135771596, guid: 1fca5fb12521a7e4d8147ed80875edc9,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fca5fb12521a7e4d8147ed80875edc9, type: 3}

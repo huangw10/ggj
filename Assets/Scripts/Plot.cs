@@ -14,6 +14,7 @@ public class Plot : MonoBehaviour
     public GameObject earth1;
     public GameObject ice_earth;
     public GameObject newspenal;
+    public GameObject board;
     public UI u;
     public GameObject next_button;
     public TextMeshProUGUI option1;
@@ -70,78 +71,28 @@ public class Plot : MonoBehaviour
     private string[] q1no = new string[] { "no1", "no2", "no3", "no", "no", "no", "no", "no"};
     private string[] q2no = new string[] { "no1", "no2", "no3", "no", "no", "no", "no", "no" };
     private string[] q3no = new string[] { "no1", "no2", "no3", "no", "no", "no", "no", "no" };
-    [SerializeField] private int t1_q1_e;
-    [SerializeField] private int t1_q1_p;
-    [SerializeField] private int t1_q1_s;
-    [SerializeField] private int t1_q2_e;
-    [SerializeField] private int t1_q2_p;
-    [SerializeField] private int t1_q2_s;
-    [SerializeField] private int t1_q3_e;
-    [SerializeField] private int t1_q3_p;
-    [SerializeField] private int t1_q3_s;
-    [SerializeField] private int t2_q1_e;
-    [SerializeField] private int t2_q1_p;
-    [SerializeField] private int t2_q1_s;
-    [SerializeField] private int t2_q2_e;
-    [SerializeField] private int t2_q2_p;
-    [SerializeField] private int t2_q2_s;
-    [SerializeField] private int t2_q3_e;
-    [SerializeField] private int t2_q3_p;
-    [SerializeField] private int t2_q3_s;
-    [SerializeField] private int t3_q1_e;
-    [SerializeField] private int t3_q1_p;
-    [SerializeField] private int t3_q1_s;
-    [SerializeField] private int t3_q2_e;
-    [SerializeField] private int t3_q2_p;
-    [SerializeField] private int t3_q2_s;
-    [SerializeField] private int t3_q3_e;
-    [SerializeField] private int t3_q3_p;
-    [SerializeField] private int t3_q3_s;
-    [SerializeField] private int t4_q1_e;
-    [SerializeField] private int t4_q1_p;
-    [SerializeField] private int t4_q1_s;
-    [SerializeField] private int t4_q2_e;
-    [SerializeField] private int t4_q2_p;
-    [SerializeField] private int t4_q2_s;
-    [SerializeField] private int t4_q3_e;
-    [SerializeField] private int t4_q3_p;
-    [SerializeField] private int t4_q3_s;
-    [SerializeField] private int t5_q1_e;
-    [SerializeField] private int t5_q1_p;
-    [SerializeField] private int t5_q1_s;
-    [SerializeField] private int t5_q2_e;
-    [SerializeField] private int t5_q2_p;
-    [SerializeField] private int t5_q2_s;
-    [SerializeField] private int t5_q3_e;
-    [SerializeField] private int t5_q3_p;
-    [SerializeField] private int t5_q3_s;
-    [SerializeField] private int t6_q1_e;
-    [SerializeField] private int t6_q1_p;
-    [SerializeField] private int t6_q1_s;
-    [SerializeField] private int t6_q2_e;
-    [SerializeField] private int t6_q2_p;
-    [SerializeField] private int t6_q2_s;
-    [SerializeField] private int t6_q3_e;
-    [SerializeField] private int t6_q3_p;
-    [SerializeField] private int t6_q3_s;
-    [SerializeField] private int t7_q1_e;
-    [SerializeField] private int t7_q1_p;
-    [SerializeField] private int t7_q1_s;
-    [SerializeField] private int t7_q2_e;
-    [SerializeField] private int t7_q2_p;
-    [SerializeField] private int t7_q2_s;
-    [SerializeField] private int t7_q3_e;
-    [SerializeField] private int t7_q3_p;
-    [SerializeField] private int t7_q3_s;
-    [SerializeField] private int t8_q1_e;
-    [SerializeField] private int t8_q1_p;
-    [SerializeField] private int t8_q1_s;
-    [SerializeField] private int t8_q2_e;
-    [SerializeField] private int t8_q2_p;
-    [SerializeField] private int t8_q2_s;
-    [SerializeField] private int t8_q3_e;
-    [SerializeField] private int t8_q3_p;
-    [SerializeField] private int t8_q3_s;
+    private int[] q1yes_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q1yes_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q1yes_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q1no_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q1no_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q1no_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q2yes_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q2yes_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q2yes_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q2no_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q2no_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q2no_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q3yes_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q3yes_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q3yes_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q3no_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q3no_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q3no_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+
+
+
 
 
 
@@ -164,6 +115,7 @@ public class Plot : MonoBehaviour
         des.text = "";
 
 
+
     }
 
     void Setbutton()
@@ -180,12 +132,16 @@ public class Plot : MonoBehaviour
         if (u.a1 != 0 && u.a2 != 0 && u.a3 != 0)
         {
             is_turn = false;
+            applynumber();
             turn++;
+            if (turn == 9)
+            { Wingame(); }
 
             panel.SetActive(is_turn);
             attri.SetActive(is_turn);
             newspenal.SetActive(is_turn);
             earth.SetActive(is_turn);
+            board.SetActive(is_turn);
             earth1.SetActive(is_turn);
             ice_earth.SetActive(is_turn);
             next_button.gameObject.SetActive(!is_turn);
@@ -198,6 +154,56 @@ public class Plot : MonoBehaviour
         }
     }
 
+    void Wingame()
+    {
+        SceneManager.LoadScene("survive");
+    }
+
+    void applynumber()
+    {
+            if (u.a1 == 1)
+            {
+          
+                engine_number += q1yes_e[turn-1];
+                population += q1yes_p[turn - 1];
+                satisfaction += q1yes_s[turn - 1];
+            }
+            else if (u.a1 == 2)
+            {
+         
+                engine_number += q1no_e[turn - 1];
+                population += q1no_p[turn - 1];
+                satisfaction += q1no_s[turn - 1];
+            }
+            if (u.a2 == 1)
+            {
+                engine_number += q2yes_e[turn - 1];
+                population += q2yes_p[turn - 1];
+                satisfaction += q2yes_s[turn - 1];
+            }
+            else if (u.a2 == 2)
+            {
+                engine_number += q2no_e[turn - 1];
+                population += q2no_p[turn - 1];
+                satisfaction += q2no_s[turn - 1];
+            }
+            if (u.a3 == 1)
+            {
+                engine_number += q3yes_e[turn - 1];
+                population += q3yes_p[turn - 1];
+                satisfaction += q3yes_s[turn - 1];
+            }
+            else if (u.a3 == 2)
+            {
+                engine_number += q3no_e[turn - 1];
+                population += q3no_p[turn - 1];
+                satisfaction += q3no_s[turn - 1];
+            }
+
+
+    }
+
+        
     public void Cutscene() {
         if (cutscene_num == 1)
         {
@@ -242,6 +248,7 @@ public class Plot : MonoBehaviour
             earth1.SetActive(is_turn);
             newspenal.SetActive(is_turn);
             ice_earth.SetActive(is_turn);
+            board.SetActive(is_turn);
             next_button.gameObject.SetActive(!is_turn);
             galaxy.gameObject.SetActive(is_turn);
             tmp1.SetText("");

@@ -17,4 +17,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscene.unity
     guid: c43985be1b63d8a4ab3082fd73dab430
+  - enabled: 1
+    path: Assets/Scenes/dead1.unity
+    guid: a33a3c2b50cbf4343807a5aa84a00d81
+  - enabled: 1
+    path: Assets/Scenes/dead2.unity
+    guid: cd8e0800267ac024898ca5e0bd762e19
+  - enabled: 1
+    path: Assets/Scenes/dead3.unity
+    guid: de5761102509736449356d802cb75906
+  - enabled: 1
+    path: Assets/Scenes/dead4.unity
+    guid: 224bd5eab61e826458586e402f8b6f6e
+  - enabled: 1
+    path: Assets/Scenes/dead5.unity
+    guid: c999e9602e07d2c4cb2e7b81bb6414e4
+  - enabled: 1
+    path: Assets/Scenes/dead6.unity
+    guid: 9aa35e882851c0d4bb56060ecfffd39b
+  - enabled: 1
+    path: Assets/Scenes/survive.unity
+    guid: 5a204cfd16fa8d644856e0ef17f7df98
   m_configObjects: {}
