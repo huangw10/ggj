@@ -178,7 +178,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 713762753
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: db24e84dc897e6c45b52765e78a51286, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -720,8 +720,8 @@ GameObject:
   - component: {fileID: 1727835882}
   - component: {fileID: 1727835885}
   - component: {fileID: 1727835884}
-  - component: {fileID: 1727835883}
   - component: {fileID: 1727835886}
+  - component: {fileID: 1727835883}
   m_Layer: 5
   m_Name: StartB
   m_TagString: Untagged
@@ -790,7 +790,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1727835886}
-        m_MethodName: StartGame
+        m_MethodName: lets_go
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -848,6 +848,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1727835881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d12e8eb432dd02c4ba8e8d54fece37d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 50f221d3a87a37c469e03efc057dc54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

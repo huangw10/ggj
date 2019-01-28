@@ -106,49 +106,49 @@ public class Plot : MonoBehaviour
         "“Mummy! So many meteors! Let’s make a wish moving to a new home quickly! ”",
         "“Life originates from the sea, thrives on the ground, but now crouches below the surface.”",
         "“Death is a wall that extanded to infinety.”",
-        "“The conflicts in the jail indicated how much they hate the government. We can’t repair it, then we should no longer repair it.” " };
+        "“The conflicts in the jail indicated how much they hate the government. We can’t repair it, then we should no longer repair it.” ", "" };
     private string[] news1yes = new string[] { "5 death in the violence protests while representative visiting at the central square of New London. This is the 25th vicious attack since the start of censorship in social media.", "Food allocation is announced by the United Government. Citizens can claim their distributions at the city center before next month.",
         "The Mars colony Army is defeated in 3 hrs in the battle with the United Government Army at Resource Site - J56.",
         "Residents of Community-xxx get sterilization under the monitor of United Government.",
         "The United Government prolongs the lives of scientists, and assert that this technology will be used to every resident in the future.",
         "On the ice surface at the south pole, brave United Army had fierce battle with the revolters. The government claims that they will extirpate all stronghold of the rebel organization.",
-        "Battle for supplies in Underground Site-043 and Site-102 [Only Permitted to View By UG Members]" };
+        "Battle for supplies in Underground Site-043 and Site-102 [Only Permitted to View By UG Members]" , "" };
     private string[] news1no = new string[] { "Around 2000 people participated in the second protest against “Project Gypsy” this week in New London. ", "The 10,000,000th newborn since the start of Project Gypsy is born in the hospital yesterday night. The next generation is our hope, and the legend of Project Gypsy will be engraved in the mind of our offsprings. ",
         "",
         "Engine-544 is turned off to assure the energy needed for the boom in population.",
         "The United Government will offer lens improvement surgery to every resident of the underground cities to make your vision better in dark environment. It’s free. Please go to the nearest hospital and get your vision better!",
         "",
-        "The Space Administration of United Government reports that the energy used for producing supplies will approximately delay our arrival by 5.2%. [Only Permitted to View By UG Members]" };
+        "The Space Administration of United Government reports that the energy used for producing supplies will approximately delay our arrival by 5.2%. [Only Permitted to View By UG Members]" , ""};
     private string[] news2yes = new string[] { "45 miners trapped underground in a mine in South Africa when it sudden collapsed.", "Police of UG arrested the organizer of the worker strike in Engine-0377.",
         "The underground shutters will be completed in Exodus Era 115 to ensure all people to move to relatively warm underground before the ice age.",
         "The committee decided to support all hospitals with backup energy. The effectiveness of hospitals increased to 45%.",
         "The Olympics is held on the large ice surface on Hawaii Island. This Olympics is the first sport meeting since the Project Gypsy started. Citizens from different cities participated traditional sports in winter Olympics.",
         "A homicide in Underground Site-101 attracted the attention of the security department. The victim and suspect have the same DNA. The security department plans to mark each clone individuals to make a distinction.",
-        "Someone leaks the secret plan, the public was terrified and starts to condemn the inhumane government.[Only Permitted to View By UG Members]" };
+        "Someone leaks the secret plan, the public was terrified and starts to condemn the inhumane government.[Only Permitted to View By UG Members]" , ""};
     private string[] news2no = new string[] { "", "R2B2 security robot has served 50% work of the maintenance and protection of engines. Engine-0377 is turned off, but UG claims that it will be restarted when needed. ",
         "",
         "Engine-0922 is active with the backup energy supplies, accelerating the speed of our travel.",
         "",
         "",
-        "The Science Department estimates that 237,586 people will be seriously influenced by the lack of food. [Only Permitted to View By UG Members]" };
+        "The Science Department estimates that 237,586 people will be seriously influenced by the lack of food. [Only Permitted to View By UG Members]" , ""};
     private string[] news3yes = new string[] { "Police confirmed that the suspects of recent serial robbery are all from the coastal refugee camp.", "The security group of the United Government equipped xxx stun guns which could paralyze the object for 10 mins.",
         "The manager of the residency which illegally uses power is executed by shooting by the Security Department of the United Government.",
         "Multiple cities in the American continent and Eurasian continent are attacked by meteorite fragments. Detailed casualties need further statistics to be determined. ",
         "Underground Site-74 executes 110 revolters against the United Government in public.",
         "Famous former rapper Skr Wu is arrested for causing public disturbance while holding private concert at a club.",
-        "The third aircraft with 500 felons is launched towards Sagittarius B-25. [Only Permitted to View By UG Members]" };
+        "The third aircraft with 500 felons is launched towards Sagittarius B-25. [Only Permitted to View By UG Members]" , ""};
     private string[] news3no = new string[] { "The refugee camp near Mount Annulii lost connection. Investigator reported the camp is covered by ice. Further analysis shows that the shutdown of power caused the loss of control of the temperature controlling system. ", "The 6-month night in the western hemisphere will end soon, new crop is already planted in the area to welcome the coming daytime.",
         "Retrospect: In 2006 Old Caleder, there was no light in the night in North Korea, but now under the leading of the United Government, NK could keep lights open for the 11-month nighttime.",
         "Engines-0332 is paused because of the meteorite attack. The speed will reach previous speed in xxx days. Five cities encountered fragments in small scale.",
         "Burglary happened in several underground cities. The government suggest residents to protect their belongings. ",
         "Electricity shortage while Famous rapper Skr Wu singing Bad Girl in his 36th concert this year.",
-        "Clash between jailers and prisoners in the jail in Site-54 is suppressed by the Security Department.  [Only Permitted to View By UG Members]" };
+        "Clash between jailers and prisoners in the jail in Site-54 is suppressed by the Security Department.  [Only Permitted to View By UG Members]" , ""};
     private string[] begining = new string[] { "Deceleration Era, 055"+"\n"+"The autorotation of the Earth is nearly stopped. The United Government claims the second phase of Project Gypsy will begin after 15 years. By that time, the Earth will gradually escape from the attractions of other planets and eventually leave the solar system. ", "Exodus Era 005"+"\n"+"The second phase of Project Gypsy starts. Now the Earth is under the attraction of Mars. The temperature will decrease while we generally escape the solar system and get further from the Sun, in the future.",
         "Exodus Era 098"+"\n"+"The Underground Cities are almost completed, to keep us warm in the Ice age. Now the Earth is under the attraction of Jupiter, which has the biggest mass in the solar system. To escape the huge attraction, the science department plans to start using temporary resource reserves in the polar area. ",
         "Exodus Era 0120"+"\n"+"The Earth is now on the track affected by Saturn. The underground cities are completed. Residents are moving into underground cities. The freezing climate can no longer support any crops. The United Government will discuss energy allocation and technology upgrading for the late stage of the second phase of Project Gypsy. ",
         "Exodus Era 0174"+"\n"+"The Earth now is on the track affected by Neptune. All residents moved to underground cities. Ice covers the whole surface of the Earth. Now, the committee has to be prepared for the third phase. ",
         "Wandering Era 020"+"\n"+"Our Earth successfully drove out of the solar system, now we are in the third phase of Project Gypsy. In the endless drifting in the universe, we need to make more constructive and decisive choices to find a livable galaxy.",
-        "Wandering Era 120"+"\n"+"We have already finished ¾ of the travel, but the resource consumed greatly exceed our previous estimation. Die, or survive, just in one mind." };
+        "Wandering Era 120"+"\n"+"We have already finished ¾ of the travel, but the resource consumed greatly exceed our previous estimation. Die, or survive, just in one mind.", "" };
     private string[] q1yes = new string[] { "Allowed", "Allowed", "Revoke", "Yes", "Biology", "Send Army", "Yes", "Allowed" };
     private string[] q2yes = new string[] { "Yes", "Yes", "Build", "Hospitals", "Hold", "Allowed", "Recycle", "Prohibit" };
     private string[] q3yes = new string[] { "City", "Secure", "Allowed", "Keep On", "Yes", "Yes", "Allowed", "Annihilation" };
@@ -192,6 +192,7 @@ public class Plot : MonoBehaviour
 
         engine_number = 911f;
         population = 73f;
+        satisfaction = 75f;
         option1.text = q1[0];
         option2.text = q2[0];
         option3.text = q3[0];
@@ -206,12 +207,16 @@ public class Plot : MonoBehaviour
     {
        
             mars.SetActive(turn == 3&& is_turn);
+        if (turn == 3)
             mars.transform.Translate(new Vector3(-15f * Time.deltaTime, 0, 0));
             jup.SetActive(turn == 4 && is_turn);
+        if (turn == 4)
             jup.transform.Translate(new Vector3(-10f * Time.deltaTime, 0, 0));
             hai.SetActive(turn == 6 && is_turn);
+        if (turn == 5)
             hai.transform.Translate(new Vector3(-10f * Time.deltaTime, 0, 0));
             tu.SetActive(turn == 5 && is_turn);
+        if (turn == 6)
             tu.transform.Translate(new Vector3(-10f * Time.deltaTime, 0, 0));
 
     }
@@ -233,6 +238,7 @@ public class Plot : MonoBehaviour
             checkend();
             
             applynumber();
+            tmp1.SetText(dialog[turn - 1]);
             turn++;
             if (turn == 9)
             { Wingame(); }
@@ -247,7 +253,7 @@ public class Plot : MonoBehaviour
             next_button.gameObject.SetActive(!is_turn);
             galaxy.gameObject.SetActive(is_turn);
             galaxy.gameObject.transform.Translate(new Vector3(movement_counter * 2.0f, 0, 0));
-            tmp1.SetText(dialog[turn-1]);
+            
             oa1 = u.a1;
             oa2 = u.a2;
             oa3 = u.a3;
@@ -256,7 +262,7 @@ public class Plot : MonoBehaviour
 
     void Wingame()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("survive");
     }
 
     void applynumber()
@@ -320,7 +326,12 @@ public class Plot : MonoBehaviour
             if(u.a2 == 2)
             SceneManager.LoadScene("dead3");
         }
-
+        if (population <= 2f)
+            SceneManager.LoadScene("dead4");
+        if (engine_number<= 450f)
+            SceneManager.LoadScene("dead5");
+        if (satisfaction <= 30f)
+            SceneManager.LoadScene("dead6");
     }
 
         
@@ -336,34 +347,34 @@ public class Plot : MonoBehaviour
     }
 
     public void intro() {
-        tmp1.SetText(begining[turn - 1]);
+        tmp1.SetText(begining[turn - 2]);
     }
 
     public void News() {
         string x = "News: \n\n";
         if (oa1 == 1)
         {
-            x += news1yes[turn - 1];
+            x += news1yes[turn - 2];
             x += "\n\n";
         }
         else if (oa1 == 2)
-        { x += news1no[turn - 1];
+        { x += news1no[turn - 2];
             x += "\n\n";
         }
         if (oa2 == 1)
-        { x += news2yes[turn - 1];
+        { x += news2yes[turn - 2];
             x += "\n\n";
         }
         else if (oa2 == 2)
-        { x += news2no[turn - 1];
+        { x += news2no[turn - 2];
             x += "\n\n";
         }
         if (oa3 == 1)
-        { x += news3yes[turn - 1];
+        { x += news3yes[turn - 2];
       
         }
         else if (oa3 == 2)
-        { x += news3no[turn - 1];
+        { x += news3no[turn - 2];
    
         }
 
@@ -419,12 +430,13 @@ public class Plot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        planetmove();
         if (is_turn)
         {
             Setbutton();
             movement_counter += 1.0f * Time.deltaTime;
 
-            planetmove();
+          
 
             if (box1.GetComponent<mouseover>().is_over && !box2.GetComponent<mouseover>().is_over && !box3.GetComponent<mouseover>().is_over)
             { des.text = d1[turn - 1]; }
