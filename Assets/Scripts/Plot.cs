@@ -155,24 +155,24 @@ public class Plot : MonoBehaviour
     private string[] q1no = new string[] { "Not Allowed", "Not Allowed", "Not Revoke", "No", "Secure", "Not Send", "No", "Not Allowed" };
     private string[] q2no = new string[] { "No", "No", "Not Build", "Engine", "Not Hold", "Not Allowed", "Not Recycle", "Not Prohibit" };
     private string[] q3no = new string[] { "Mountains", "Agriculture", "Not Allowed", "Turn Off", "No", "No", "Not Allowed", "Refuse" };
-    private int[] q1yes_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q1yes_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q1yes_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q1no_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q1no_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q1no_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q2yes_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q2yes_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q2yes_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q2no_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q2no_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q2no_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q3yes_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q3yes_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q3yes_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q3no_e = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q3no_s = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-    private int[] q3no_p = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+    private int[] q1yes_e = new int[] { 0, 50, 100, 0, 150, 0, 0, 0 };
+    private int[] q1yes_s = new int[] { 5, -5, -10, 0, 0, 0, -5, 0};
+    private int[] q1yes_p = new int[] { -1, 0, 1, -2, 0, -2, -2, -2 };
+    private int[] q1no_e = new int[] { 0, 0, 0, -50, 0, 0, -100, -100 };
+    private int[] q1no_s = new int[] { -10, 0, 0, 0, 0, 0, 0, 0 };
+    private int[] q1no_p = new int[] { 0, 1, 0, 0, 0, 0, 0, 0 };
+    private int[] q2yes_e = new int[] { 50, 0, 0, 0, 0, 0, 0, 0 };
+    private int[] q2yes_s = new int[] { 0, -3, 0, 0, 5, -5, -5, 0 };
+    private int[] q2yes_p = new int[] { -1, 0, -300, 1, 0, 3, 0, -2 };
+    private int[] q2no_e = new int[] { 0, -50, 0, 50, -150, 0, 7, 0 };
+    private int[] q2no_s = new int[] { 0, 0, 0, 0, 0, 0, 0, -5 };
+    private int[] q2no_p = new int[] { 0, 0, 0, 0, 0, 0, -1, 0 };
+    private int[] q3yes_e = new int[] { 0, 0, 50, 0, 0, 0, 0, 0 };
+    private int[] q3yes_s = new int[] { -10, 10, 10, 0, -5, -5, 0, 0 };
+    private int[] q3yes_p = new int[] { 0, 0, 0, -5, 0, 0, -1, -3 };
+    private int[] q3no_e = new int[] { 0, 0, -50, -100, -100, -100, -100, -200 };
+    private int[] q3no_s = new int[] { 0, 0, 0, 0, 0, 0, 0, 0 };
+    private int[] q3no_p = new int[] { -1, 2, 0, -1, 0, 0, 0, 0 };
 
 
 
