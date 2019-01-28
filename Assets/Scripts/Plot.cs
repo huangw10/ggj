@@ -161,9 +161,9 @@ public class Plot : MonoBehaviour
     private int[] q1no_e = new int[] { 0, 0, 0, -50, 0, 0, -100, -100 };
     private int[] q1no_s = new int[] { -10, 0, 0, 0, 0, 0, 0, 0 };
     private int[] q1no_p = new int[] { 0, 1, 0, 0, 0, 0, 0, 0 };
-    private int[] q2yes_e = new int[] { 50, 0, 0, 0, 0, 0, 0, 0 };
+    private int[] q2yes_e = new int[] { 50, 0, -300, 0, 0, 0, 0, 0 };
     private int[] q2yes_s = new int[] { 0, -3, 0, 0, 5, -5, -5, 0 };
-    private int[] q2yes_p = new int[] { -1, 0, -300, 1, 0, 3, 0, -2 };
+    private int[] q2yes_p = new int[] { -1, 0, 0, 1, 0, 3, 0, -2 };
     private int[] q2no_e = new int[] { 0, -50, 0, 50, -150, 0, 7, 0 };
     private int[] q2no_s = new int[] { 0, 0, 0, 0, 0, 0, 0, -5 };
     private int[] q2no_p = new int[] { 0, 0, 0, 0, 0, 0, -1, 0 };
@@ -190,8 +190,8 @@ public class Plot : MonoBehaviour
         next_button.gameObject.SetActive(!is_turn);
         newspenal.SetActive(is_turn);
 
-        engine_number = 911f;
-        population = 73f;
+        engine_number = 800f;
+        population = 11f;
         satisfaction = 75f;
         option1.text = q1[0];
         option2.text = q2[0];
