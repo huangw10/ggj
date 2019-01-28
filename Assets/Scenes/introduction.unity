@@ -694,8 +694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8, y: 77}
-  m_SizeDelta: {x: -259, y: -268}
+  m_AnchoredPosition: {x: -13.5, y: 98}
+  m_SizeDelta: {x: -248, y: -225.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2079477173
 MonoBehaviour:
@@ -717,7 +717,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Button
+  m_text: "In the early 24th century, the whole society of human beings established
+    a community called United government after realizing the miserable situation resulted
+    from modern high-tech wars. Since then, all ethnics united together to make a
+    rapid development in science and technology. Mankind finally was able to build
+    an interstellar travel engine. \n\nHowever, the harmony lasted for 150 years until
+    the Science Department of United government  detected the sudden languishment
+    of the Sun. To survive, human beings have to leave the solar system, where they
+    originated from, to find new livable galaxy, but they decide to take their home
+    on this upcoming journey, the Earth. The plan is named \u201CProject Gypsy\u201D,
+    which reference to the ethnic group who had carried their home as caravan and
+    travel around the world in mankind\u2019s history. \r\n\r\n\r\n\u201CWe will take
+    our home to find a new hope\u201D.\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -745,8 +756,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -786,12 +797,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: -115.28378}
   m_textInfo:
     textComponent: {fileID: 2079477173}
-    characterCount: 6
+    characterCount: 883
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 149
+    wordCount: 142
     linkCount: 0
-    lineCount: 1
+    lineCount: 17
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
